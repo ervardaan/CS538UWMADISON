@@ -78,4 +78,17 @@ codes and labels.
 
 ### 9) Java-1990 late
 
+## programming paradigms
+
+- Procedural Languages
+    - Most of the widely-known and
+widely-used programming languages
+(C, Fortran, Pascal, Ada, etc.) are
+procedural in nature.
+  - Programs execute statement by
+statement, reading and modifying a
+shared memory.
+  - This programming style closely
+models conventional sequential
+processors linked to a RAM
 
