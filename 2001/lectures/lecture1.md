@@ -138,4 +138,71 @@ of control.”
     - What results are programs that are
 unusually succinct and focused
 
+- Block Structured Languages
+      - Include Algol 60, Pascal, C and Java.
+      - Identifiers may have a non-global scope.
+Declarations may be local to a class,
+subprogram or block.
+      - Scopes may nest, with declarations
+propagating to inner (contained) scopes.
+      - The lexically nearest declaration of an
+identifier is bound to uses of that
+identifier
+
+- Dynamic Scoping
+      - An alternative to static scoping is
+dynamic scoping, which was used in
+early Lisp dialects (but not in Scheme,
+which is statically scoped).
+    - Under dynamic scoping, identifiers
+are bound to the dynamically closest
+declaration of the identifier. Thus if
+an identifier is not locally declared,
+the call chain (sequence of callers) is
+examined to find a matching
+declaration
+
+- Virtual Functions
+    - A function declared within a class, C,
+may be redeclared within a class
+derived from C. Moreover, for
+uniformity of redeclaration, it is
+important that all calls, including
+those in methods within C, use the
+new declaration.
+
+- SCOPE VS LIFETIME
+- STRUCTS VS BLOCKS
+- CLASSES
+      - TYPE EQUVALENCE IN CLASSES
+      - SUBTYPES
+- PARAMETRIC POLYMORPHISM
+      - We can create distinct subclasses
+based on the values passed to
+constructors. But sometimes we want
+to create subclasses based on distinct
+types, and types can’t be passed as
+parameters. (Types are not values, but
+rather a property of values.)
+    - We see this problem in Java, which
+tries to create general purpose data
+structures by basing them on the
+class Object. Since any object can be
+assigned to Object (all classes must
+be a subclass of Object), this works—
+at least partially
+    - Using this mechanism, we
+can use type parameters to build a
+“custom version” of a class from a
+general purpose class.
+C++ allows this using its template
+mechanism. Pizza, an extension of
+Java, also allows type parameters.
+In both languages, type parameters
+are enclosed in “angle brackets” (e.g.,
+LinkedList<T> passes T, a type, to
+the LinkedList class)
+- Overloading and Ad-hoc
+Polymorphism
+
 
