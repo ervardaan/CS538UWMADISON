@@ -1,5 +1,9 @@
 # PROGRAMMING LANGUAGES HISTORY AND DEVELOPMENT-BASIC STRUCTURE AND DEVELOPMENT OF PLs
 
+## READINGS-
+- PLCC:CHAPTERS 1 TO 5
+- PLP: CHAPTERS 1 TO 3
+
 ## Scheme
 
 - A modern variant of Lisp.
@@ -204,5 +208,16 @@ LinkedList<T> passes T, a type, to
 the LinkedList class)
 - Overloading and Ad-hoc
 Polymorphism
-
+    - Overloading is sometimes called “ad
+hoc” polymorphism, because, to the
+programmer, it appears that one
+method can take a variety of different
+parameter types. This isn’t true
+polymorphism because the methods
+have different bodies; there is no
+sharing of one definition among
+different parameter types. There is no
+guarantee that the different
+definitions do the same thing, even
+though they share a common name
 
