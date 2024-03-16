@@ -1,5 +1,7 @@
 # CS538 Course Overview
 
+# course website: https://pages.cs.wisc.edu/~fischer/cs538.s01.html
+
 ## CS538 is an upper division computer science course that investigates the design of programming languages. It complements CS536, which covers the implementation of programming languages.
 
 This course will study in some detail the design and evolution of six programming languages--Scheme, ML, Java, Pizza, Python and Prolog. Each language has made fundamental contributions to the art and science of language design.
