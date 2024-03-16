@@ -49,3 +49,33 @@ C++’s templates)
 - Algebraic data types, including
 patterns.
 
+## Python
+
+- A simple, efficient scripting language
+that quickly build new programs out
+of existing applications and libraries.
+- Cleanly includes objects.
+Scales nicely into larger applications.
+
+### 1)programs were written in absolute machine code—a sequence of bits that encode machine instructions
+
+### 2) Symbolic Assemblers
+
+- Allow use of symbols for operation
+codes and labels.
+
+### 3) Fortran (Formula Translator)-1950
+
+### 4) Cobol (Common Business Oriented Language)-1960
+
+### 5) Algol 60 (Algorithmic Language)-1960
+
+### 6) Lisp (List Processing Language)-1960
+
+### 7) Simula 67 (Simulation Algol)-1967
+
+### 8) C-1970 and C++ - 1980 mid
+
+### 9) Java-1990 late
+
+
